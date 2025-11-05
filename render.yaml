@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: telegram-quiz-bot
+    env: python
+    startCommand: python main.py
+    plan: free
